@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="DSCE Registry - one trusted home for your campus records." />
+    <title>DSCE Registry | Your campus, in one place</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="DSCE Registry home">
+        <span class="brand-mark" aria-hidden="true">D</span>
+        <span>DSCE<span class="brand-accent">Registry</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How it works</a>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark mode">
+          <span class="theme-icon" aria-hidden="true">☼</span>
+          <span class="theme-label">Light mode</span>
+        </button>
+        <button class="button button-small button-outline js-open-dialog" type="button">Get started</button>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero content-width">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Built for DSCE students</p>
+          <h1>Your campus life,<br /><span>in one place.</span></h1>
+          <p class="hero-text">
+            Find what you need, share what matters, and stay connected to the community that makes DSCE feel like home.
+          </p>
+          <div class="hero-actions">
+            <button class="button button-primary js-open-dialog" type="button">Join the registry <span aria-hidden="true">→</span></button>
+            <a class="text-link" href="#features">Explore features <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="social-proof">
+            <div class="avatar-stack" aria-hidden="true">
+              <span>AK</span><span>RS</span><span>PM</span><span>+</span>
+            </div>
+            <p><strong>2,400+</strong> students are already connected</p>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Preview of the DSCE Registry dashboard">
+          <div class="glow glow-one"></div>
+          <div class="glow glow-two"></div>
+          <div class="dashboard-card">
+            <div class="dashboard-top">
+              <div class="mini-brand"><span class="brand-mark brand-mark-small">D</span> Registry</div>
+              <span class="status-pill"><span></span> Live</span>
+            </div>
+            <div class="welcome-line">Good morning, <strong>Student</strong> <span aria-hidden="true">✦</span></div>
+            <p class="muted">Here's what's happening on campus.</p>
+            <div class="dashboard-grid">
+              <div class="dashboard-tile tile-purple"><span class="tile-icon">◈</span><strong>Events</strong><small>12 this week</small></div>
+              <div class="dashboard-tile tile-yellow"><span class="tile-icon">⌁</span><strong>Resources</strong><small>Always available</small></div>
+              <div class="dashboard-tile tile-blue"><span class="tile-icon">◎</span><strong>Community</strong><small>Connect &amp; grow</small></div>
+              <div class="dashboard-tile tile-green"><span class="tile-icon">✓</span><strong>My profile</strong><small>Up to date</small></div>
+            </div>
+            <div class="activity-row"><span class="activity-icon">↗</span><span><strong>New opportunity</strong><small>Hackathon registrations are open</small></span><span class="activity-arrow">→</span></div>
+          </div>
+          <div class="floating-card floating-card-top"><span class="floating-icon">✦</span><span><strong>One trusted home</strong><small>For everything DSCE</small></span></div>
+          <div class="floating-card floating-card-bottom"><span class="check-icon">✓</span><span><strong>Profile complete</strong><small>You're all set!</small></span></div>
+        </div>
+      </section>
+
+      <section id="features" class="features content-width">
+        <div class="section-heading">
+          <p class="eyebrow">Everything connected</p>
+          <h2>Designed around <span>your day.</span></h2>
+          <p>Less searching. More doing. Discover a simpler way to make the most of your campus experience.</p>
+        </div>
+        <div class="feature-layout">
+          <div class="feature-tabs" role="tablist" aria-label="Registry features">
+            <button class="feature-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="feature-panel-0" id="feature-tab-0" data-feature="0">
+              <span class="feature-number">01</span><span><strong>Discover</strong><small>Find events, resources, and opportunities.</small></span><span class="tab-arrow">↗</span>
+            </button>
+            <button class="feature-tab" type="button" role="tab" aria-selected="false" aria-controls="feature-panel-1" id="feature-tab-1" data-feature="1">
+              <span class="feature-number">02</span><span><strong>Connect</strong><small>Meet people who share your interests.</small></span><span class="tab-arrow">↗</span>
+            </button>
+            <button class="feature-tab" type="button" role="tab" aria-selected="false" aria-controls="feature-panel-2" id="feature-tab-2" data-feature="2">
+              <span class="feature-number">03</span><span><strong>Grow</strong><small>Build your profile and your future.</small></span><span class="tab-arrow">↗</span>
+            </button>
+          </div>
+          <div class="feature-panel" id="feature-panel-0" role="tabpanel" aria-labelledby="feature-tab-0">
+            <div class="panel-illustration"><span class="illustration-ring ring-one"></span><span class="illustration-ring ring-two"></span><span class="illustration-icon">⌕</span></div>
+            <div><p class="eyebrow">Your campus compass</p><h3>Always know what's next.</h3><p>From club meetups to career opportunities, the right information is just a tap away.</p><a class="text-link" href="#how-it-works">See how it works <span aria-hidden="true">→</span></a></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="how-it-works" class="cta-section content-width">
+        <div><p class="eyebrow">Ready when you are</p><h2>Make your DSCE experience <span>count.</span></h2></div>
+        <button class="button button-light js-open-dialog" type="button">Get early access <span aria-hidden="true">→</span></button>
+      </section>
+    </main>
+
+    <footer class="site-footer content-width"><span>© 2024 DSCE Registry</span><span>Made for the DSCE community <span aria-hidden="true">✦</span></span></footer>
+
+    <dialog class="join-dialog" aria-labelledby="dialog-title">
+      <button class="dialog-close" type="button" aria-label="Close dialog">×</button>
+      <p class="eyebrow">Be first in line</p><h2 id="dialog-title">Join the registry.</h2>
+      <p>Leave your email and we'll let you know when DSCE Registry is ready for you.</p>
+      <form class="join-form">
+        <label for="email">Student email</label><input id="email" name="email" type="email" placeholder="you@dsce.edu.in" required />
+        <button class="button button-primary" type="submit">Reserve my spot <span aria-hidden="true">→</span></button>
+        <p class="form-message" role="status"></p>
+      </form>
+    </dialog>
+    <script src="script.js"></script>
+  </body>
+</html>
